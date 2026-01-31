@@ -1,59 +1,5 @@
 [
   {
-    "Id": 1,
-    "ShipmentCode": "jpn-ayush-ar-300126",
-    "CreatedDate": "2026-01-30T00:00:00",
-    "CustomerName": "ayush aryal",
-    "CustomerPhone1": "9763551585",
-    "CustomerPhone2": null,
-    "CustomerLocation": null,
-    "ReceiverName": "aman aryal",
-    "ReceiverPhone1": "97635518585",
-    "ReceiverPhone2": null,
-    "ReceiverLocation": null,
-    "FromCountry": "Nepal",
-    "FromState": null,
-    "ToCountry": "Japan",
-    "ToState": null,
-    "Address": "Kanta Motha",
-    "TotalAmount": 5900.00,
-    "Products": [
-      {
-        "Id": 0,
-        "SerialNo": 1,
-        "ProductName": "ghee",
-        "WeightKg": 1.0,
-        "Price": 500.0,
-        "Category": null,
-        "ShipmentId": 1
-      },
-      {
-        "Id": 0,
-        "SerialNo": 2,
-        "ProductName": "blanker",
-        "WeightKg": 1.0,
-        "Price": 5000.0,
-        "Category": null,
-        "ShipmentId": 1
-      },
-      {
-        "Id": 0,
-        "SerialNo": 3,
-        "ProductName": "book",
-        "WeightKg": 0.5,
-        "Price": 400.00,
-        "Category": null,
-        "ShipmentId": 1
-      }
-    ],
-    "ShipmentStatus": 0,
-    "Status": "Pending",
-    "CompletedDate": null,
-    "CancelledDate": null,
-    "CancellationReason": null,
-    "Notes": null
-  },
-  {
     "Id": 2,
     "ShipmentCode": "jpn-ayush-ar-300126",
     "CreatedDate": "2026-01-30T00:00:00",
@@ -98,6 +44,60 @@
         "Price": 400.00,
         "Category": "",
         "ShipmentId": 2
+      }
+    ],
+    "ShipmentStatus": 0,
+    "Status": "Pending",
+    "CompletedDate": null,
+    "CancelledDate": null,
+    "CancellationReason": null,
+    "Notes": null
+  },
+  {
+    "Id": 3,
+    "ShipmentCode": "jpn-ayush-ay-310126",
+    "CreatedDate": "2026-01-31T00:00:00",
+    "CustomerName": "ayush",
+    "CustomerPhone1": "+9779763551585",
+    "CustomerPhone2": null,
+    "CustomerLocation": "simara, bara , nepal",
+    "ReceiverName": "Aman Puja",
+    "ReceiverPhone1": "+9779866685815",
+    "ReceiverPhone2": null,
+    "ReceiverLocation": "tokyo, tokyo, japan",
+    "FromCountry": "Nepal",
+    "FromState": null,
+    "ToCountry": "Japan",
+    "ToState": null,
+    "Address": "Kanta Motha",
+    "TotalAmount": 3600.00,
+    "Products": [
+      {
+        "Id": 0,
+        "SerialNo": 1,
+        "ProductName": "ghee",
+        "WeightKg": 0.5,
+        "Price": 400.00,
+        "Category": null,
+        "ShipmentId": 3
+      },
+      {
+        "Id": 0,
+        "SerialNo": 2,
+        "ProductName": "butter",
+        "WeightKg": 1.0,
+        "Price": 800.00,
+        "Category": null,
+        "ShipmentId": 3
+      },
+      {
+        "Id": 0,
+        "SerialNo": 3,
+        "ProductName": "beer",
+        "WeightKg": 3.0,
+        "Price": 2400.00,
+        "Category": null,
+        "ShipmentId": 3
       }
     ],
     "ShipmentStatus": 0,
